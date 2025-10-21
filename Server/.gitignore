@@ -1,0 +1,12 @@
+node_modules/
+.env
+coverage/
+dist/
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# media
+videos/*.mp4
+*.mp4
