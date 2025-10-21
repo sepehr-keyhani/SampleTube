@@ -10,15 +10,17 @@ module.exports = {
       max_memory_restart: "1G",
       env: {
         NODE_ENV: "development",
-        PORT: 4000,
-        MONGO_URI: "mongodb://127.0.0.1:27017/sampletube",
-        JWT_SECRET: "dev_secret_change_me",
+        PORT: process.env.PORT || 4000,
+        MONGO_URI:
+          process.env.MONGO_URI || "mongodb://127.0.0.1:27017/sampletube",
+        JWT_SECRET: process.env.JWT_SECRET || "123123",
       },
       env_production: {
         NODE_ENV: "production",
-        PORT: 4000,
-        MONGO_URI: "mongodb://127.0.0.1:27017/sampletube",
-        JWT_SECRET: "your_production_jwt_secret",
+        PORT: process.env.PORT || 4000,
+        MONGO_URI:
+          process.env.MONGO_URI || "mongodb://127.0.0.1:27017/sampletube",
+        JWT_SECRET: process.env.JWT_SECRET || "123123",
       },
     },
   ],
