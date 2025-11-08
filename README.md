@@ -41,13 +41,13 @@ It demonstrates end-to-end auth (register/login), protected APIs, and streaming 
    cd App/SampleTube
    pod install
    ```
-2. Open `SampleTube.xcworkspace` in Xcode 16+.
+2. Open `SampleTube.xcworkspace` in Xcode 26+.
 3. Ensure `App/SampleTube/SampleTube/Sources/Config/AppConfig.swift` points to your backend host.
 4. Build & run. On device, replace `localhost` with your machine IP.
 
 ## iOS Tech Stack
 
-- Swift 5.10+, iOS 16+
+- Swift 5.10+, iOS 26+
 - UIKit (MVC), SnapKit (layout)
 - Alamofire (networking, async/await)
 - KeychainAccess (secure token)
