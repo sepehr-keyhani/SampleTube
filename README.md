@@ -1,3 +1,8 @@
+
+*********************************************************************************************************************
+***** I paused the backend from server, If you wish to test the iOS application, please contact me via LinkedIn *****
+*********************************************************************************************************************
+
 # SampleTube (iOS + Node/Express)
 
 SampleTube is a compact, recruiter-friendly demo project consisting of:
